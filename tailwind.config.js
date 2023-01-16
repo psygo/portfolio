@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        icons: "90px 20px",
+      },
+    },
+    fontFamily: {
+      h1: ["Lobster"],
+    },
   },
   plugins: [],
 };

@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-h1;
+  }
+}
 
 * {
   box-sizing: border-box;
