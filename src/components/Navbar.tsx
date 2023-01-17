@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
-    <nav className="items-center flex justify-between py-8 mb-12">
-      <h1 className="text-3xl">Philippe Fanaro</h1>
+    <nav className="items-center w-screen flex justify-between px-10 py-8 mb-12">
+      <h1 className="text-4xl text-gray-100">Philippe Fanaro</h1>
       <ul>
         <li>
           <a
